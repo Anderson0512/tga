@@ -1,12 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
+import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { VoteScreen } from './src/screens/VotesScreen';
+import { Routes } from './src/routes';
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <VoteScreen/>
+      <Routes/>
     </View>
   );
 }
